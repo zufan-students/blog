@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/me.png # change with your own avatar
 
 # URL settings
-url: "https://zufan-yp.github.io" #
+url: "https://blog.zufan.me" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
