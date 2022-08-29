@@ -2,7 +2,7 @@
 title: "Web Brutator"
 date: 2022-08-29 22:30:00 +07:00
 categories: [WriteUps]
-tags: [ctf, hackthebox, pentest, writeups]
+tags: [ms, hacking, bruteforce, brute-force, pentesting, pentest, hacking-tool, web-hacking, bruteforce-attacks, application-servers]
 image: 
 ---
 
