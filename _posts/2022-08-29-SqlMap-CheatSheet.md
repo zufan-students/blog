@@ -1,6 +1,6 @@
 ---
 title: "SqlMap Cheat Sheet"
-date: 2022-08-29 22:30:00 +07:00
+date: 2022-08-29 23:00:00 +07:00
 categories: [Cheat]
 tags: [Cheat Sheet, WriteUps]
 image: 
