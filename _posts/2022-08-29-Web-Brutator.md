@@ -89,7 +89,7 @@ Example:
 ```
 python3 web-brutator.py --target standardform --url https://mytarget.com -U ./usernames.txt -P ./passwords.txt -s -t 40 -v
 ```
-![Demo](./img/demo.gif)
+![Demo](https://reconshell.com/wp-content/uploads/2021/02/web-brutator.gif)
 *This demo is against a phpMyAdmin interface*
 
 
