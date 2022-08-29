@@ -1,6 +1,6 @@
 ---
 title: "HackTheBox - Trick Writeups"
-date: 2022-08-22 13:00:00 +07:00
+date: 2022-08-29 13:00:00 +07:00
 categories: [WriteUps]
 tags: [ctf, hackthebox, pentest, writeups]
 image: 
