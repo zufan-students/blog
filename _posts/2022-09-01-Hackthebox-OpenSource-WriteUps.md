@@ -20,7 +20,7 @@ PORT      STATE SERVICE
 
 ### Jika kami membuka web, server memberi tahu kami bahwa kami dapat mengunduh source code sehingga kami akan memberikannya unduhan
 
-![Gambar1](_posts/img/OpenSource/1.png "Gambar1")
+![Gambar1](./img/OpenSource/1.png "Gambar1")
 
 ### Kami membuka zip zip dan menemukan bahwa ada direktori .git, dan mencari di antara cabang dan komit, kami menemukan kredensial meskipun tidak berfungsi untuk ssh
 
@@ -76,7 +76,7 @@ def cmd():
 
 ### Kami mengunggahnya dari http://10.10.11.164/upload tetapi kami akan mencegat dengan burpsuite dan mengubah rute ke "/app/app/views.py" untuk menimpa yang sekarang di mesin dan tekan maju
 
-![Gambar2](_posts/img/OpenSource/2.png "Gambar2")
+![Gambar2](./img/OpenSource/2.png "Gambar2")
 
 ### Jika semuanya berjalan dengan baik, fungsinya harus berfungsi, maka kami akan membuat shell terbalik dengan nc mkfifo, urlencoding apa yang dapat menyebabkan masalah
 
@@ -108,11 +108,11 @@ root
 
 ### Jika kita membuka localhost di browser pada port 3000 kita melihat panel gitea kita dapat menggunakan kredensial yang kita temukan di awal dev01:Soulless_Developer#2022
 
-![Gambar3](_posts/img/OpenSource/3.png "Gambar3")
+![Gambar3](./img/OpenSource/3.png "Gambar3")
 
 ### Sudah sebagai dev01 kita dapat melihat repositori "home-backup" yang memiliki beberapa kunci ssh yang dapat kita coba sambungkan
 
-![Gambar4](_posts/img/OpenSource/4.png "Gambar4")
+![Gambar4](./img/OpenSource/4.png "Gambar4")
 
 ```terminal
 -----BEGIN RSA PRIVATE KEY-----
@@ -262,4 +262,4 @@ root@opensource:~# cat root.txt
 root@opensource:~#
 ```
 
-![HTBOpenSource](_posts/img/OpenSource/HTBOpenSource.png "HTBOpenSource")
+![HTBOpenSource](./img/OpenSource/HTBOpenSource.png "HTBOpenSource")
