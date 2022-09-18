@@ -1,6 +1,6 @@
 ---
 title: "AutoRecon for Pentest"
-date: 2022-09-01 14:00:00 +07:00
+date: 2022-09-18 09:00:00 +07:00
 categories: [Tools]
 tags: [recon, autorecon, scanner, pentest]
 image: 
