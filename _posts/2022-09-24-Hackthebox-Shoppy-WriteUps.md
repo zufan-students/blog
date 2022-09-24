@@ -6,7 +6,7 @@ tags: [ctf, hackthebox, pentest, writeups]
 image: 
 ---
 
-# HackTheBox OpenSource Writeups
+# HackTheBox Shoppy Writeups
 
 ### Kita mulai dengan memindai port mesin dengan nmap dan port yang terbuka seperti command terminal dibawah
 ```terminal
