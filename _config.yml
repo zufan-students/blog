@@ -1,18 +1,18 @@
 # Site settings
 title: Zufan Sec | Blog # site title
 description: >- # site description
-  Welcome to my blog!. Haii semua. ini tentang Tulisan saya. Selamat menikmati!. <a href="https://github.com/zufan-yp" target="_blank" rel="noopener">@github</a>.
+  Welcome to my blog!. Haii semua. ini tentang Tulisan saya. Selamat menikmati!.
 lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
 image: assets/img/me.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/zufan-yp # site repo [optional]
-mode: dark # default theme "dark" | "light"
+mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Zufan Ramadhan # author name
   bio: >- # tell to the world
-    Welcome to my blog!. Haii semua. ini tentang Tulisan saya. Selamat menikmati!!. <a href="https://github.com/zufan-yp" target="_blank" rel="noopener">@github</a>.
+    Welcome to my blog!. Haii semua. ini tentang Tulisan saya. Selamat menikmati!!.</a>.
   username: yupysyntax # general username
   github: zufan-yp # github username
   twitter: zufanzuf # twitter username
