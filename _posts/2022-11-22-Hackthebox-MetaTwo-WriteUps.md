@@ -1,6 +1,6 @@
 ---
-title: "HackTheBox - MetaTwo"
-date: 2022-11-22 02:00:00 +07:00
+title: "HackTheBox - MetaTwo WriteUps"
+date: 2022-11-22 01:00:00 +07:00
 categories: [WriteUps]
 tags: [ctf, hackthebox, pentest, writeups]
 image: 
