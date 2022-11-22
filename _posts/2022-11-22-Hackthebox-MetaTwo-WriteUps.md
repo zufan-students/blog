@@ -493,6 +493,7 @@ password: '-----BEGIN PGP MESSAGE-----
   -----END PGP MESSAGE-----
 
   '
+```
 ```terminal
 jnelson@meta2:/dev/shm$ cat new.pass 
 -----BEGIN PGP MESSAGE-----
