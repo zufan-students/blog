@@ -1,6 +1,6 @@
 ---
 title: "Tryhackme - Simple CTF WriteUps"
-date: 2022-12-13 13:00:00 +07:00
+date: 2022-12-14 13:00:00 +07:00
 categories: [WriteUps]
 tags: [ctf, Tryhackme, pentest, writeups]
 image: 
