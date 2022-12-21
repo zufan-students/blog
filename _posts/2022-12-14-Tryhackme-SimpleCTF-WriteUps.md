@@ -8,7 +8,7 @@ image:
 
 # Tryhackme - Simple CTF WriteUps
 
-Pertama kali kita scanning Port yang terbuka dengan Nmap “Nmap -sC -sV ‘Target’”. Setelah menscan kita dapat melihat Port terbuka yaitu port 21, 80, dan 2222.
+Pertama kali kita scanning Port yang terbuka dengan Nmap ```Nmap -sC -sV ‘Target’```. Setelah menscan kita dapat melihat Port terbuka yaitu port 21, 80, dan 2222.
 ```
 $ nmap -sC -sV 10.10.98.22 
 Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-13 22:54 PST
