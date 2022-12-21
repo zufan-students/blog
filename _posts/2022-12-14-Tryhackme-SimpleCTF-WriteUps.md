@@ -51,7 +51,7 @@ Disini kita mencoba melihat tampilan website pada port 80. Dan kita mendapatkan 
 
 ![image](https://media.discordapp.net/attachments/740245586095112242/1055005431703031868/image.png)
 
-Sekarang kita mencoba fuzzing directory dengan dirsearch dan kita mendapatkan: ````/index.html```, ```/robots.txt, /simple```.
+Sekarang kita mencoba fuzzing directory dengan dirsearch dan kita mendapatkan: ```/index.html, /robots.txt, /simple```.
 
 ![image](https://media.discordapp.net/attachments/740245586095112242/1055005736247230514/image.png)
 
