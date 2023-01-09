@@ -1,6 +1,6 @@
 ---
 title: "HackTheBox - Flight Writeups"
-date: 2023-01-09 18:00:00 +07:00
+date: 2023-01-09 19:00:00 +07:00
 categories: [WriteUps]
 tags: [ctf, hackthebox, pentest, writeups]
 image: 
