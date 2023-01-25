@@ -1,6 +1,6 @@
 ---
 title: "HackTheBox - BroScience WriteUps"
-date: 2023-12-25 02:00:00 +07:00
+date: 2023-1-25 02:00:00 +07:00
 categories: [WriteUps]
 tags: [ctf, hackthebox, pentest, writeups]
 image: 
