@@ -8,7 +8,9 @@ image:
 
 # HackTheBox SeeTheSharpFlag WriteUps
 
-```Saya telah membuat aplikasi verifikasi kata sandi. Jika saya dapat mengingat kata sandinya, aplikasi akan memberi tahu saya bahwa itu benar. Lihat apakah Anda dapat menebak kata sandi saya.```
+```
+Saya telah membuat aplikasi verifikasi kata sandi. Jika saya dapat mengingat kata sandinya, aplikasi akan memberi tahu saya bahwa itu benar. Lihat apakah Anda dapat menebak kata sandi saya.
+```
 
 Berikut ini tampilan dibawah bila aplikasi apk tersebut dibuka
 
