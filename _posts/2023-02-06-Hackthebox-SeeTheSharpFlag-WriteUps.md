@@ -1,6 +1,6 @@
 ---
 title: "HackTheBox - SeeTheSharpFlag WriteUps"
-date: 2022-02-06 02:00:00 +07:00
+date: 2023-02-06 02:00:00 +07:00
 categories: [WriteUps]
 tags: [ctf, hackthebox, pentest, writeups]
 image: 
