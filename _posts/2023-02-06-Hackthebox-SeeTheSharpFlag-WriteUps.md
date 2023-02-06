@@ -110,5 +110,5 @@ Menjadi
 
 Setelah selesai Simpan ke modul baru, timpa dll di folder dekompilasi, repacking, sign, zipalign, install. Dan bila kita menginputkan random value lagi di aplikasi kita akan mendapatkan Flagnya
 
-![image](https://media.discordapp.net/attachments/740245586095112242/1072041463518609479/image.png)
+![image](https://media.discordapp.net/attachments/740245586095112242/1072044658278006794/image.png)
 ![image](https://media.discordapp.net/attachments/740245586095112242/1072041535358631986/image.png?width=645&height=606)
