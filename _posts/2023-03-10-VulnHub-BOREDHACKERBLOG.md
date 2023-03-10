@@ -8,8 +8,10 @@ image:
 
 # BOREDHACKERBLOG: CLOUD AV WriteUps
 
-``Cloud Anti-Virus Scanner! is a cloud-based antivirus scanning service.
-Currently, it's in beta mode. You've been asked to test the setup and find vulnerabilities and escalate privs.``
+```
+Cloud Anti-Virus Scanner! is a cloud-based antivirus scanning service.
+Currently, it's in beta mode. You've been asked to test the setup and find vulnerabilities and escalate privs
+```
 
 ## Reconnaissance
 
