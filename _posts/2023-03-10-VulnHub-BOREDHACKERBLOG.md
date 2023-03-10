@@ -49,7 +49,7 @@ Selanjutnya, kita perlu memulai enumerasi terhadap mesin host, oleh karena itu k
 
 Source code dibawah merupakan kode HTML yang digunakan untuk membuat sebuah halaman web sederhana yang menyediakan layanan beta Cloud Anti-Virus Scanner. Namun, terdapat beberapa kerentanan yang perlu diperhatikan dalam kode tersebut.
 
-Pertama, form action pada tag <form> mengarah ke /login, yang menunjukkan bahwa data yang dimasukkan oleh pengguna akan diproses pada halaman login. Namun, tidak ada mekanisme validasi untuk memastikan bahwa data yang dimasukkan benar-benar merupakan invite code yang valid. Hal ini dapat memungkinkan serangan brute-force atau penyerangan password dengan menggunakan daftar kode yang umum digunakan atau dicoba secara acak.
+Pertama, form action pada tag ``<form>`` mengarah ke /login, yang menunjukkan bahwa data yang dimasukkan oleh pengguna akan diproses pada halaman login. Namun, tidak ada mekanisme validasi untuk memastikan bahwa data yang dimasukkan benar-benar merupakan invite code yang valid. Hal ini dapat memungkinkan serangan brute-force atau penyerangan password dengan menggunakan daftar kode yang umum digunakan atau dicoba secara acak.
 
 Kedua, kode tersebut tidak menggunakan protokol HTTPS yang dapat menyediakan keamanan tambahan dengan mengenkripsi komunikasi antara pengguna dan server. Hal ini dapat memungkinkan serangan Man-In-The-Middle (MITM) yang dapat memungkinkan peretas untuk mencuri informasi pengguna, seperti invite code atau informasi login lainnya.
 
