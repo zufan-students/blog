@@ -20,8 +20,7 @@ Abritary File Disclosure (CVE-2022-24716) Arbitrary File Disclosure adalah keren
 ![image](https://media.discordapp.net/attachments/740245586095112242/1092688799345156137/image.png)
 
 
-Pernyataan ini menunjukkan bahwa kita mencoba membaca isi file dengan menggunakan perintah curl. Curl adalah sebuah command-line tool yang digunakan untuk mengirim dan menerima data melalui protokol seperti HTTP, HTTPS, FTP, dan lain-lain. Pada pernyataan di atas, kita menggunakan curl untuk membaca isi file dengan URL ``
-http://icinga.cerberus.local:8080/icingaweb2/lib/icinga/icinga-php-thirdparty/etc/icingaweb2/roles.ini``. URL tersebut merujuk pada file ``roles.ini`` yang berada pada direktori ``etc/icingaweb2`` pada sebuah server dengan nama domain ``icinga.cerberus.local`` dan port 8080. Dalam konteks ini, kemungkinan besar kita mencoba membaca konfigurasi role dari aplikasi web yang dijalankan pada server tersebut.
+Pernyataan ini menunjukkan bahwa kita mencoba membaca isi file dengan menggunakan perintah curl. Curl adalah sebuah command-line tool yang digunakan untuk mengirim dan menerima data melalui protokol seperti HTTP, HTTPS, FTP, dan lain-lain. Pada pernyataan di atas, kita menggunakan curl untuk membaca isi file dengan URL ``http://icinga.cerberus.local:8080/icingaweb2/lib/icinga/icinga-php-thirdparty/etc/icingaweb2/roles.ini``. URL tersebut merujuk pada file ``roles.ini`` yang berada pada direktori ``etc/icingaweb2`` pada sebuah server dengan nama domain ``icinga.cerberus.local`` dan port 8080. Dalam konteks ini, kemungkinan besar kita mencoba membaca konfigurasi role dari aplikasi web yang dijalankan pada server tersebut.
 ```sql
 curl http://icinga.cerberus.local:8080/icingaweb2/lib/icinga/icinga-php-thirdparty/etc/icingaweb2/resources.ini
 ```
