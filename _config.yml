@@ -88,3 +88,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+  
+# Security Headers
+http_headers:
+  Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload"
+  Content-Security-Policy: "default-src 'self' https:; img-src 'self' data: https:; font-src 'self' https: data:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+  X-Frame-Options: "DENY"
+  X-Content-Type-Options: "nosniff"
+  Referrer-Policy: "strict-origin-when-cross-origin"
+  Permissions-Policy: "geolocation=(), microphone=(), camera=(), gyroscope=(), magnetometer=(), payment=(), usb=()"
