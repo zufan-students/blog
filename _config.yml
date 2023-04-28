@@ -69,14 +69,6 @@ include:
   - _redirects
   - .htaccess
 
-# Security headers
-http_strict_transport_security: max-age=31536000; includeSubDomains; preload
-content_security_policy: "default-src 'self'; font-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'"
-x_frame_options: SAMEORIGIN
-x_content_type_options: nosniff
-referrer_policy: no-referrer-when-downgrade
-permissions_policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
-
 exclude:
   - CNAME
   - Gemfile
