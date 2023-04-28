@@ -89,11 +89,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-postfiles
   
-# Security Headers
-http_headers:
-  Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload"
-  Content-Security-Policy: "default-src 'self' https:; img-src 'self' data: https:; font-src 'self' https: data:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
-  X-Frame-Options: "DENY"
-  X-Content-Type-Options: "nosniff"
-  Referrer-Policy: "strict-origin-when-cross-origin"
-  Permissions-Policy: "geolocation=(), microphone=(), camera=(), gyroscope=(), magnetometer=(), payment=(), usb=()"
+# Security headers
+http_strict_transport_security: max-age=31536000; includeSubDomains; preload
+content_security_policy: "default-src 'self'; font-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'"
+x_frame_options: SAMEORIGIN
+x_content_type_options: nosniff
+referrer_policy: no-referrer-when-downgrade
+permissions_policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+
